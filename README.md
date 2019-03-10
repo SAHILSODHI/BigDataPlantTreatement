@@ -7,7 +7,7 @@ http://donnees.ville.montreal.qc.ca/dataset/frenes-publics-proteges-injection-ag
 
 We will use the 2015 and 2016 data sets available in directory `data`.
 
-Done as part of MiniProject (SOEN 691-UU / SOEN 499-UU - Big Data Analytics)
+Done as a part of MiniProject (SOEN 691-UU / SOEN 499-UU - Big Data Analytics)
 
 Technologies Used:
 
