@@ -35,8 +35,6 @@ We will use the 2015 and 2016 data sets available in directory `data`.
 '''
 HELPER FUNCTIONS
 
-These functions are here to help you. Instructions will tell you when
-you should use them. Don't modify them!
 '''
 
 
@@ -73,14 +71,6 @@ def toCSVLine(data):
 '''
 SPARK RDD IMPLEMENTATION
 
-You will now have to re-implement all the functions above using Apache 
-Spark's Resilient Distributed Datasets API (RDD, see documentation at 
-https://spark.apache.org/docs/latest/rdd-programming-guide.html). 
-Outputs must be identical to the ones obtained above in plain Python. 
-However, all operations must be re-implemented using the RDD API, you 
-are not allowed to simply convert results obtained with plain Python to 
-RDDs (this will be checked). Note that the function *toCSVLine* in the 
-HELPER section at the top of this file converts RDDs into CSV strings.
 '''
 
 def count_rdd(filename):
@@ -217,15 +207,6 @@ def intersection_rdd(filename1, filename2):
 '''
 SPARK DATAFRAME IMPLEMENTATION
 
-You will now re-implement all the tasks above using Apache Spark's 
-DataFrame API (see documentation at 
-https://spark.apache.org/docs/latest/sql-programming-guide.html). 
-Outputs must be identical to the ones obtained above in plain Python. 
-Note: all operations must be re-implemented using the DataFrame API, 
-you are not allowed to simply convert results obtained with the RDD API 
-to Data Frames. Note that the function *toCSVLine* in the HELPER 
-section at the top of this file also converts DataFrames into CSV 
-strings.
 '''
 
 
@@ -337,11 +318,6 @@ def intersection_df(filename1, filename2):
 '''
 DASK IMPLEMENTATION (bonus)
 
-You will now re-implement all the tasks above using Dask (see 
-documentation at http://docs.dask.org/en/latest). Outputs must be 
-identical to the ones obtained previously. Note: all operations must be 
-re-implemented using Dask, you are not allowed to simply convert 
-results obtained with the other APIs.
 '''
 
 
